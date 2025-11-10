@@ -1,47 +1,47 @@
 {
-  "name": "IncidenteBEC",
+  "name": "BECIncident",
   "display_name": "Business Email Compromise (BEC)",
-  "description": "Plantilla de caso para la gestión de incidentes de compromiso de correo electrónico empresarial (BEC)",
+  "description": "Case template for managing business email compromise incidents.",
   "author": "Jesús Angosto",
   "title_prefix": "[BEC]",
-  "summary": "Investigación y mitigación de un compromiso de correo electrónico empresarial",
-  "tags": ["BEC", "correo electrónico", "fraude"],
-  "classification": "intrusión:compromiso-correo",
+  "summary": "Investigation and mitigation workflow for a business email compromise.",
+  "tags": ["BEC", "email", "fraud"],
+  "classification": "intrusion:email-compromise",
   "tasks": [
     {
-      "title": "Identificar cuentas de correo comprometidas",
-      "description": "Revisar accesos sospechosos y detectar cuentas afectadas en la infraestructura de correo",
-      "tags": ["correo", "cuentas"]
+      "title": "Identify compromised mailboxes",
+      "description": "Review suspicious logins and determine which accounts were affected within the email infrastructure.",
+      "tags": ["email", "accounts"]
     },
     {
-      "title": "Analizar actividad fraudulenta",
-      "description": "Buscar correos maliciosos, reglas de reenvío y solicitudes de transferencias no autorizadas",
-      "tags": ["análisis", "fraude"]
+      "title": "Analyze fraudulent activity",
+      "description": "Hunt for malicious emails, forwarding rules, and unauthorized wire transfer requests.",
+      "tags": ["analysis", "fraud"]
     },
     {
-      "title": "Contener y mitigar",
-      "description": "Revocar sesiones activas, forzar cambio de credenciales y activar MFA",
-      "tags": ["contención", "mitigación"]
+      "title": "Contain and mitigate",
+      "description": "Revoke active sessions, force credential resets, and enforce MFA.",
+      "tags": ["containment", "mitigation"]
     },
     {
-      "title": "Coordinar con finanzas y legales",
-      "description": "Informar a los departamentos relevantes y contactar entidades financieras si hay fraude económico",
-      "tags": ["coordinación", "finanzas"]
+      "title": "Coordinate with finance and legal",
+      "description": "Notify the relevant departments and contact financial institutions if funds are at risk.",
+      "tags": ["coordination", "finance"]
     },
     {
-      "title": "Notificar a las partes externas afectadas",
-      "description": "Alertar a clientes o proveedores potencialmente impactados por correos fraudulentos",
-      "tags": ["notificación", "externo"]
+      "title": "Notify external parties",
+      "description": "Alert customers or vendors who might have received fraudulent emails.",
+      "tags": ["notification", "external"]
     },
     {
-      "title": "Reforzar seguridad del correo electrónico",
-      "description": "Aplicar configuraciones avanzadas (DKIM, DMARC, SPF) y revisar políticas de acceso",
-      "tags": ["seguridad", "correo"]
+      "title": "Strengthen email security",
+      "description": "Apply advanced configurations (DKIM, DMARC, SPF) and review access policies.",
+      "tags": ["security", "email"]
     },
     {
-      "title": "Cadena de custodia",
-      "description": "Preservar correo"
+      "title": "Preserve chain of custody",
+      "description": "Preserve email evidence, logs, and supporting artifacts following chain-of-custody procedures.",
+      "tags": ["custody", "evidence"]
+    }
+  ]
 }
-      ]
-   }
-

@@ -1,0 +1,70 @@
+{
+  "name": "SupplyChainAttack",
+  "display_name": "Supply Chain Attack",
+  "description": "Case template for managing supply chain attack incidents.",
+  "author": "Jesús Angosto",
+  "title_prefix": "[SUPPLYCHAIN]",
+  "summary": "Investigation and mitigation of a supply chain compromise.",
+  "tags": ["supply chain", "vendors", "software"],
+  "classification": "intrusion:vendor-compromise",
+  "tasks": [
+    {
+      "title": "Identify affected software or services",
+      "description": "Determine which third-party products or services have been compromised.",
+      "tags": ["software", "vendors"]
+    },
+    {
+      "title": "Analyze organizational impact",
+      "description": "Review which internal systems rely on the compromised components.",
+      "tags": ["impact", "analysis"]
+    },
+    {
+      "title": "Contain and mitigate",
+      "description": "Isolate affected systems and apply temporary mitigations in coordination with the vendor.",
+      "tags": ["containment", "mitigation"]
+    },
+    {
+      "title": "Review integrity and communications",
+      "description": "Validate file and configuration integrity and inspect suspicious outbound connections.",
+      "tags": ["integrity", "network"]
+    },
+    {
+      "title": "Coordinate with third parties",
+      "description": "Work with vendors, CERTs, and authorities on remediation and notification.",
+      "tags": ["coordination", "vendors"]
+    },
+    {
+      "title": "Chain of custody",
+      "description": "Document and preserve evidence tied to the supply chain breach.",
+      "tags": ["custody", "evidence"]
+    },
+    {
+      "title": "Lessons learned",
+      "description": "Update vendor management processes and security controls for future assessments.",
+      "tags": ["post-mortem", "continuous improvement"]
+    }
+  ],
+  "note_directories": [
+    {
+      "title": "Supply chain attack details",
+      "notes": [
+        {
+          "title": "Compromised software or services",
+          "content": "List and describe the third-party products or services that were affected."
+        },
+        {
+          "title": "Collected evidence",
+          "content": "Summary of artifacts and logs that were gathered."
+        },
+        {
+          "title": "Chain of custody",
+          "content": "Documentation that tracks how evidence was handled and preserved."
+        },
+        {
+          "title": "Lessons learned",
+          "content": "Post-incident analysis and proposed improvements for vendor management."
+        }
+      ]
+    }
+  ]
+}

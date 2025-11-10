@@ -1,0 +1,70 @@
+{
+  "name": "AccountCompromise",
+  "display_name": "Compromised Account",
+  "description": "Case template for handling compromised user or service accounts.",
+  "author": "Jesús Angosto",
+  "title_prefix": "[ACCOUNT]",
+  "summary": "Investigation and mitigation of an account compromise.",
+  "tags": ["account", "compromise"],
+  "classification": "intrusion:compromised-credentials",
+  "tasks": [
+    {
+      "title": "Identify compromised accounts",
+      "description": "Review access logs and alerts to detect affected accounts.",
+      "tags": ["accounts", "detection"]
+    },
+    {
+      "title": "Review suspicious activity",
+      "description": "Analyze forwarding rules, logins from unusual locations, and anomalous behavior.",
+      "tags": ["activity", "analysis"]
+    },
+    {
+      "title": "Contain and mitigate",
+      "description": "Force password resets and enable MFA on affected accounts.",
+      "tags": ["containment", "mitigation"]
+    },
+    {
+      "title": "Notify impacted parties",
+      "description": "Inform users and the appropriate departments.",
+      "tags": ["notification", "users"]
+    },
+    {
+      "title": "Strengthen authentication policies",
+      "description": "Update password requirements and access security policies.",
+      "tags": ["policies", "security"]
+    },
+    {
+      "title": "Maintain chain of custody",
+      "description": "Record and preserve evidence of account activity and access.",
+      "tags": ["custody", "evidence"]
+    },
+    {
+      "title": "Document lessons learned",
+      "description": "Capture findings and update security procedures.",
+      "tags": ["post-mortem", "continuous improvement"]
+    }
+  ],
+  "note_directories": [
+    {
+      "title": "Account compromise details",
+      "notes": [
+        {
+          "title": "Compromised accounts",
+          "content": "List of affected accounts and description of malicious activity."
+        },
+        {
+          "title": "Collected evidence",
+          "content": "Access logs and suspicious activity details."
+        },
+        {
+          "title": "Chain of custody",
+          "content": "Record of how evidence related to access and activity was preserved."
+        },
+        {
+          "title": "Lessons learned",
+          "content": "Recommendations to prevent future account compromises."
+        }
+      ]
+    }
+  ]
+}

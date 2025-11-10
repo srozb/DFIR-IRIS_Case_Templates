@@ -1,0 +1,52 @@
+{
+  "name": "WebAppVulnerability",
+  "display_name": "Web Application Vulnerability",
+  "description": "Case template for managing incidents related to vulnerabilities in web applications.",
+  "author": "Jesús Angosto",
+  "title_prefix": "[WEBAPP]",
+  "summary": "Investigation and mitigation of a web application vulnerability.",
+  "tags": ["web application", "vulnerability"],
+  "classification": "intrusion:application-compromise",
+  "tasks": [
+    {
+      "title": "Identify vulnerable components",
+      "description": "Determine the scope of the vulnerability by identifying affected components and systems.",
+      "tags": ["components", "scope"]
+    },
+    {
+      "title": "Assess risk",
+      "description": "Evaluate the potential impact and likelihood of exploitation.",
+      "tags": ["risk", "assessment"]
+    },
+    {
+      "title": "Develop mitigation plan",
+      "description": "Create a plan to mitigate the vulnerability, including patching and additional controls.",
+      "tags": ["mitigation", "plan"]
+    },
+    {
+      "title": "Apply mitigation",
+      "description": "Implement patches or security measures as defined in the plan.",
+      "tags": ["implementation", "patching"]
+    },
+    {
+      "title": "Monitor exploitation attempts",
+      "description": "Monitor logs and other telemetry to detect exploitation attempts targeting the vulnerability.",
+      "tags": ["monitoring", "exploitation"]
+    },
+    {
+      "title": "Strengthen security measures",
+      "description": "Update and reinforce security controls to prevent future vulnerabilities.",
+      "tags": ["security", "prevention"]
+    },
+    {
+      "title": "Maintain chain of custody",
+      "description": "Document and preserve relevant evidence while maintaining chain of custody throughout the process.",
+      "tags": ["evidence", "custody"]
+    },
+    {
+      "title": "Document lessons learned",
+      "description": "Analyze the incident and update procedures to improve responses to future vulnerabilities.",
+      "tags": ["post-mortem", "continuous improvement"]
+    }
+  ]
+}

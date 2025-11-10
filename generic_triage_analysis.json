@@ -1,0 +1,126 @@
+{
+    "name": "generic_triage_analysis",
+    "display_name": "Generic Triage Analysis",
+    "description": "Advanced triage analysis template that leverages forensic collection and analysis tools (PowerTriage, CyberTriage, TriageX, KAPE, Velociraptor, etc.) on potentially compromised endpoints.",
+    "author": "Jesús Angosto",
+    "classification": "forensics:advanced-triage-analysis",
+    "title_prefix": "[TRIAGE]",
+    "summary": "# Context\n\nThis case walks through the triage process on potentially compromised endpoints using forensic response tooling. The goal is to obtain a quick view of the compromise, prioritize affected systems, and define the first containment actions.\n\n# Contact\n\n- IR analyst:\n- Customer contact:\n\n# Actions\n\n- Data collection with triage tools.\n- Analysis of key artifacts (processes, persistence, network, users).\n- Classification and recommendations.",
+    "tags": [
+        "triage",
+        "forensics",
+        "malware",
+        "suspicious-activity",
+        "rapid-response",
+        "powertriage",
+        "cybertriage",
+        "triagex",
+        "kape",
+        "velociraptor"
+    ],
+    "tasks": [
+        {
+            "title": "Define scope and identify endpoints",
+            "description": "Determine which endpoints require triage based on alerts, logs, and suspicious behavior.",
+            "tags": ["scope", "identify"]
+        },
+        {
+            "title": "Collect data",
+            "description": "Run the selected triage tool on endpoints to gather volatile and non-volatile data (memory, disk, registry, network).",
+            "tags": ["collect", "triage"]
+        },
+        {
+            "title": "Artifact analysis: Running processes",
+            "description": "Review running processes and recently executed binaries for suspicious or unknown activity.",
+            "tags": ["analyze", "processes"]
+        },
+        {
+            "title": "Artifact analysis: Persistence",
+            "description": "Identify persistence mechanisms such as autorun keys, scheduled tasks, services, or installed drivers.",
+            "tags": ["analyze", "persistence"]
+        },
+        {
+            "title": "Artifact analysis: Network",
+            "description": "Inspect active and recent network connections, including external IPs, domains, and any unauthorized protocols.",
+            "tags": ["analyze", "network"]
+        },
+        {
+            "title": "Artifact analysis: User activity",
+            "description": "Examine active sessions, accounts in use, command history, and recent access.",
+            "tags": ["analyze", "users"]
+        },
+        {
+            "title": "Correlate indicators of compromise (IoCs)",
+            "description": "Match findings against known IoCs such as hashes, domains, IP addresses, and filenames.",
+            "tags": ["correlate", "iocs"]
+        },
+        {
+            "title": "Classify the incident and recommend actions",
+            "description": "Classify the incident based on findings (malware, APT, unauthorized access, etc.) and define containment and next steps.",
+            "tags": ["classification", "recommendation"]
+        }
+    ],
+    "note_directories": [
+        {
+            "title": "Scope definition",
+            "notes": [
+                {
+                    "title": "Identified endpoints",
+                    "content": "# Selected endpoints\n\n- List of systems\n- Reason for inclusion\n- Analysis priority\n"
+                }
+            ]
+        },
+        {
+            "title": "Data collection",
+            "notes": [
+                {
+                    "title": "Tool and parameters",
+                    "content": "# Details\n\n- Triage tool used:\n- Version:\n- Execution parameters:\n- Issues encountered:\n"
+                },
+                {
+                    "title": "Summary of collected data",
+                    "content": "# Summary\n\n- Systems collected:\n- Data size:\n- Key artifacts obtained:\n"
+                }
+            ]
+        },
+        {
+            "title": "Artifact analysis",
+            "notes": [
+                {
+                    "title": "Running processes and recent executables",
+                    "content": "# Findings\n\n- Suspicious processes:\n- Unusual executable locations:\n- Relevant hashes:\n"
+                },
+                {
+                    "title": "Persistence and configurations",
+                    "content": "# Findings\n\n- Autorun registry keys:\n- Suspicious scheduled tasks:\n- Unauthorized services or drivers:\n"
+                },
+                {
+                    "title": "Network activity",
+                    "content": "# Findings\n\n- Suspicious external connections:\n- Anomalous DNS resolutions:\n- Unauthorized protocols:\n"
+                },
+                {
+                    "title": "User activity",
+                    "content": "# Findings\n\n- Accounts involved:\n- Last logons:\n- Command history:\n"
+                },
+                {
+                    "title": "Indicators of compromise (IoCs)",
+                    "content": "# Detected IoCs\n\n- Files:\n- Hashes:\n- IPs/Domains:\n- URLs:\n"
+                }
+            ]
+        },
+        {
+            "title": "Classification and recommendations",
+            "notes": [
+                {
+                    "title": "Incident classification",
+                    "content": "# Classification\n\n- Incident type:\n- Affected systems:\n- Criticality level:\n"
+                },
+                {
+                    "title": "Next steps and containment",
+                    "content": "# Recommendations\n\n- Immediate actions:\n- Suggested containment:\n- Additional analysis:\n"
+                }
+            ]
+        }
+    ]
+}
+

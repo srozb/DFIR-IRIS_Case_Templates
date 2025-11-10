@@ -1,52 +1,52 @@
 {
-  "name": "IntrusionOT",
-  "display_name": "Intrusión en Infraestructura OT",
-  "description": "Plantilla de caso para la gestión de incidentes de intrusión en entornos OT/ICS",
+  "name": "OTIntrusion",
+  "display_name": "OT Infrastructure Intrusion",
+  "description": "Case template for managing intrusions in OT/ICS environments.",
   "author": "Jesús Angosto",
   "title_prefix": "[OT]",
-  "summary": "Investigación y mitigación de una intrusión en infraestructura OT",
+  "summary": "Investigation and mitigation of an intrusion targeting OT infrastructure.",
   "tags": ["OT", "ICS", "industrial"],
-  "classification": "infraestructura:intrusión-ot",
+  "classification": "infrastructure:ot-intrusion",
   "tasks": [
     {
-      "title": "Identificar sistemas OT afectados",
-      "description": "Revisar dispositivos industriales (PLC, SCADA, HMI) comprometidos y su alcance en la red OT",
-      "tags": ["identificación", "OT"]
+      "title": "Identify affected OT systems",
+      "description": "Review compromised industrial devices (PLC, SCADA, HMI) and their footprint across the OT network.",
+      "tags": ["identification", "OT"]
     },
     {
-      "title": "Aislar redes industriales",
-      "description": "Implementar segmentación o desconexión controlada para evitar propagación",
-      "tags": ["aislamiento", "contención"]
+      "title": "Isolate industrial networks",
+      "description": "Apply segmentation or controlled disconnection to prevent lateral movement.",
+      "tags": ["isolation", "containment"]
     },
     {
-      "title": "Recolectar evidencias",
-      "description": "Extraer registros de controladores, capturas de red y configuraciones manteniendo la cadena de custodia",
-      "tags": ["evidencias", "forense"]
+      "title": "Collect evidence",
+      "description": "Extract controller logs, network captures, and configurations while maintaining chain of custody.",
+      "tags": ["evidence", "forensics"]
     },
     {
-      "title": "Analizar vectores de compromiso",
-      "description": "Determinar cómo accedió el atacante a la red OT (VPN, ingeniería social, vulnerabilidades)",
-      "tags": ["análisis", "vectores"]
+      "title": "Analyze compromise vectors",
+      "description": "Determine how the attacker accessed the OT network (VPN, social engineering, vulnerabilities).",
+      "tags": ["analysis", "vectors"]
     },
     {
-      "title": "Coordinar con equipos OT",
-      "description": "Colaborar con ingenieros OT para evaluar impacto en procesos industriales y aplicar mitigaciones",
-      "tags": ["coordinación", "OT"]
+      "title": "Coordinate with OT teams",
+      "description": "Work with OT engineers to assess impact on industrial processes and apply mitigations.",
+      "tags": ["coordination", "OT"]
     },
     {
-      "title": "Restaurar y reforzar",
-      "description": "Restaurar operaciones y aplicar medidas de seguridad específicas para entornos OT",
-      "tags": ["restauración", "seguridad"]
+      "title": "Restore and harden",
+      "description": "Restore operations and implement OT-specific security controls.",
+      "tags": ["restoration", "security"]
     },
     {
-      "title": "Cadena de custodia",
-      "description": "Documentar el manejo de evidencias críticas en entornos industriales",
-      "tags": ["custodia", "integridad"]
+      "title": "Maintain chain of custody",
+      "description": "Document how critical evidence in industrial environments is handled.",
+      "tags": ["custody", "integrity"]
     },
     {
-      "title": "Lecciones aprendidas",
-      "description": "Actualizar procedimientos de ciberseguridad OT e integrar lecciones en la estrategia de defensa",
-      "tags": ["post-mortem", "mejora continua"]
+      "title": "Document lessons learned",
+      "description": "Update OT cybersecurity procedures and feed lessons into the defense strategy.",
+      "tags": ["post-mortem", "continuous improvement"]
     }
   ]
 }

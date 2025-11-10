@@ -1,63 +1,63 @@
 {
-  "name": "AmenazaInterna",
-  "display_name": "Amenaza Interna",
-  "description": "Plantilla de caso para la gestión de incidentes de amenazas internas",
+  "name": "InsiderThreat",
+  "display_name": "Insider Threat",
+  "description": "Case template for managing insider threat incidents.",
   "author": "Jesús Angosto",
-  "title_prefix": "[INTERNA]",
-  "summary": "Investigación y mitigación de una amenaza interna",
-  "tags": ["amenaza interna", "empleado"],
-  "classification": "otro:otro",
+  "title_prefix": "[INSIDER]",
+  "summary": "Investigation and mitigation of an insider threat.",
+  "tags": ["insider threat", "employee"],
+  "classification": "other:insider",
   "tasks": [
     {
-      "title": "Identificar actividad sospechosa",
-      "description": "Determinar el alcance de la actividad sospechosa y los recursos afectados",
-      "tags": ["actividad", "alcance"]
+      "title": "Identify suspicious activity",
+      "description": "Determine the scope of the suspicious behavior and the impacted resources.",
+      "tags": ["activity", "scope"]
     },
     {
-      "title": "Recopilar evidencias",
-      "description": "Recopilar registros, correos electrónicos y otros datos relevantes para establecer una línea de tiempo e identificar a las partes implicadas",
-      "tags": ["evidencia", "registros"]
+      "title": "Collect evidence",
+      "description": "Gather logs, emails, and other relevant data to build a timeline and identify the parties involved.",
+      "tags": ["evidence", "logs"]
     },
     {
-      "title": "Asegurar recursos afectados",
-      "description": "Asegurar los recursos afectados mediante cambios en los controles de acceso y revocación de credenciales",
-      "tags": ["seguridad", "acceso"]
+      "title": "Secure affected resources",
+      "description": "Protect impacted resources by changing access controls and revoking credentials.",
+      "tags": ["security", "access"]
     },
     {
-      "title": "Entrevistar a las partes implicadas",
-      "description": "Entrevistar al presunto implicado y a posibles testigos para obtener más información",
-      "tags": ["entrevista", "testigos"]
+      "title": "Interview involved parties",
+      "description": "Interview the suspected individual and any potential witnesses to gather more information.",
+      "tags": ["interview", "witnesses"]
     },
     {
-      "title": "Implementar mejoras de seguridad",
-      "description": "Aplicar y actualizar medidas de seguridad para prevenir futuras amenazas internas",
-      "tags": ["seguridad", "prevención"]
+      "title": "Implement security improvements",
+      "description": "Apply and update security measures to prevent future insider threats.",
+      "tags": ["security", "prevention"]
     },
     {
-      "title": "Lecciones aprendidas",
-      "description": "Revisar el incidente y actualizar procedimientos internos para reforzar la respuesta ante amenazas internas",
-      "tags": ["post-mortem", "mejora continua"]
+      "title": "Document lessons learned",
+      "description": "Review the incident and update internal procedures to strengthen the insider threat response.",
+      "tags": ["post-mortem", "continuous improvement"]
     }
   ],
   "note_directories": [
     {
-      "title": "Detalles de la amenaza interna",
+      "title": "Insider threat details",
       "notes": [
         {
-          "title": "Actividad sospechosa",
-          "content": "Detalles de la actividad sospechosa que dio lugar a la investigación"
+          "title": "Suspicious activity",
+          "content": "Details about the suspicious activity that triggered the investigation."
         },
         {
-          "title": "Evidencias recopiladas",
-          "content": "Resumen de las evidencias recopiladas durante la investigación"
+          "title": "Collected evidence",
+          "content": "Summary of the evidence gathered during the investigation."
         },
         {
-          "title": "Resultados de entrevistas",
-          "content": "Resumen de las entrevistas realizadas durante la investigación"
+          "title": "Interview results",
+          "content": "Summary of the interviews conducted during the investigation."
         },
         {
-          "title": "Lecciones aprendidas",
-          "content": "Análisis de las lecciones aprendidas y acciones recomendadas para prevenir incidentes similares"
+          "title": "Lessons learned",
+          "content": "Analysis of lessons learned and recommended actions to prevent similar incidents."
         }
       ]
     }

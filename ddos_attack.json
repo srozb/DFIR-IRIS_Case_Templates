@@ -1,67 +1,67 @@
 {
-  "name": "AtaqueDDoS",
-  "display_name": "Ataque DDoS",
-  "description": "Plantilla de caso para la gestión de incidentes de ataques DDoS",
+  "name": "DDoSAttack",
+  "display_name": "DDoS Attack",
+  "description": "Case template for managing distributed denial-of-service incidents.",
   "author": "Jesús Angosto",
   "title_prefix": "[DDOS]",
-  "summary": "Investigación y mitigación de un ataque DDoS",
-  "tags": ["DDoS", "red"],
-  "classification": "disponibilidad:ddos",
+  "summary": "Investigation and mitigation of a DDoS attack.",
+  "tags": ["DDoS", "network"],
+  "classification": "availability:ddos",
   "tasks": [
     {
-      "title": "Identificar vector de ataque",
-      "description": "Determinar el tipo y origen del ataque DDoS, incluyendo posibles botnets o servicios maliciosos involucrados",
-      "tags": ["vector", "origen"]
+      "title": "Identify attack vector",
+      "description": "Determine the type and origin of the DDoS attack, including potential botnets or malicious services involved.",
+      "tags": ["vector", "origin"]
     },
     {
-      "title": "Mitigar el ataque",
-      "description": "Aplicar estrategias de mitigación como filtrado de tráfico, rate limiting y colaboración con el ISP",
-      "tags": ["mitigación", "tráfico"]
+      "title": "Mitigate the attack",
+      "description": "Apply mitigation strategies such as traffic filtering, rate limiting, and coordination with the ISP.",
+      "tags": ["mitigation", "traffic"]
     },
     {
-      "title": "Monitorizar la red",
-      "description": "Supervisar el tráfico de red para asegurar que el ataque ha sido mitigado y detectar posibles reintentos",
-      "tags": ["monitorización", "tráfico"]
+      "title": "Monitor the network",
+      "description": "Monitor network traffic to confirm the attack is mitigated and to detect possible retries.",
+      "tags": ["monitoring", "traffic"]
     },
     {
-      "title": "Realizar análisis forense de red",
-      "description": "Analizar registros y capturas de red para comprender la metodología y herramientas empleadas por los atacantes",
-      "tags": ["forense", "análisis"]
+      "title": "Perform network forensic analysis",
+      "description": "Analyze logs and captures to understand the attackers' methodology and tooling.",
+      "tags": ["forensics", "analysis"]
     },
     {
-      "title": "Actualizar mecanismos de defensa",
-      "description": "Reforzar las medidas de protección y actualizar los procedimientos para prevenir ataques similares",
-      "tags": ["defensa", "prevención"]
+      "title": "Update defensive mechanisms",
+      "description": "Strengthen protections and update procedures to prevent similar attacks.",
+      "tags": ["defense", "prevention"]
     },
     {
-      "title": "Lecciones aprendidas",
-      "description": "Documentar hallazgos y recomendaciones para mejorar la preparación y respuesta ante futuros ataques DDoS",
-      "tags": ["post-mortem", "mejora continua"]
+      "title": "Document lessons learned",
+      "description": "Record findings and recommendations to improve readiness for future DDoS attacks.",
+      "tags": ["post-mortem", "continuous improvement"]
     }
   ],
   "note_directories": [
     {
-      "title": "Detalles del ataque DDoS",
+      "title": "DDoS attack details",
       "notes": [
         {
-          "title": "Vector de ataque",
-          "content": "Detalles del vector del ataque DDoS identificado"
+          "title": "Attack vector",
+          "content": "Details about the DDoS vector that was identified."
         },
         {
-          "title": "Origen del ataque",
-          "content": "Información sobre la procedencia del ataque y posibles actores implicados"
+          "title": "Attack origin",
+          "content": "Information about the source of the attack and possible actors."
         },
         {
-          "title": "Estrategias de mitigación",
-          "content": "Resumen de las acciones tomadas para mitigar el ataque"
+          "title": "Mitigation strategies",
+          "content": "Summary of the actions taken to mitigate the attack."
         },
         {
-          "title": "Análisis forense",
-          "content": "Resultados del análisis forense de los registros y tráfico de red"
+          "title": "Forensic analysis",
+          "content": "Results from the forensic analysis of logs and network traffic."
         },
         {
-          "title": "Lecciones aprendidas",
-          "content": "Resumen de mejoras y recomendaciones tras el incidente"
+          "title": "Lessons learned",
+          "content": "Summary of improvements and recommendations after the incident."
         }
       ]
     }

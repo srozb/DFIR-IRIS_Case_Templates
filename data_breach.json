@@ -1,67 +1,67 @@
 {
-  "name": "FugaDatos",
-  "display_name": "Fuga de Datos",
-  "description": "Plantilla de caso para la gestión de incidentes de fuga de datos",
+  "name": "DataLeak",
+  "display_name": "Data Breach",
+  "description": "Case template for managing data breach incidents.",
   "author": "Jesús Angosto",
-  "title_prefix": "[FUGA]",
-  "summary": "Investigación y mitigación de una fuga de datos",
-  "tags": ["fuga de datos", "privacidad"],
-  "classification": "seguridad-información:acceso-no-autorizado",
+  "title_prefix": "[BREACH]",
+  "summary": "Investigation and mitigation of a data breach.",
+  "tags": ["data breach", "privacy"],
+  "classification": "information-security:unauthorized-access",
   "tasks": [
     {
-      "title": "Identificar datos comprometidos",
-      "description": "Determinar el alcance de la fuga identificando los datos y sistemas afectados",
-      "tags": ["datos", "alcance"]
+      "title": "Identify compromised data",
+      "description": "Determine the scope of the breach by listing affected data and systems.",
+      "tags": ["data", "scope"]
     },
     {
-      "title": "Contener la fuga",
-      "description": "Asegurar los sistemas comprometidos y evitar nuevos accesos no autorizados",
-      "tags": ["contención", "acceso"]
+      "title": "Contain the breach",
+      "description": "Secure compromised systems and prevent additional unauthorized access.",
+      "tags": ["containment", "access"]
     },
     {
-      "title": "Realizar análisis forense",
-      "description": "Analizar sistemas y registros para identificar la causa raíz y el vector de compromiso",
-      "tags": ["forense", "causa raíz"]
+      "title": "Perform forensic analysis",
+      "description": "Analyze systems and logs to identify the root cause and attack vector.",
+      "tags": ["forensics", "root cause"]
     },
     {
-      "title": "Notificar a las partes afectadas",
-      "description": "Informar a las personas y autoridades pertinentes sobre la fuga según las obligaciones legales y de cumplimiento",
-      "tags": ["notificación", "compliance"]
+      "title": "Notify affected parties",
+      "description": "Inform individuals and authorities of the breach according to legal and compliance obligations.",
+      "tags": ["notification", "compliance"]
     },
     {
-      "title": "Mejorar la seguridad",
-      "description": "Aplicar medidas correctivas y reforzar la postura de seguridad para evitar fugas futuras",
-      "tags": ["seguridad", "prevención"]
+      "title": "Improve security controls",
+      "description": "Apply corrective measures and strengthen the security posture to avoid future leaks.",
+      "tags": ["security", "prevention"]
     },
     {
-      "title": "Lecciones aprendidas",
-      "description": "Evaluar la respuesta al incidente y actualizar procedimientos internos para mejorar la preparación futura",
-      "tags": ["post-mortem", "mejora continua"]
+      "title": "Capture lessons learned",
+      "description": "Review the incident response and update internal procedures to improve future readiness.",
+      "tags": ["post-mortem", "continuous improvement"]
     }
   ],
   "note_directories": [
     {
-      "title": "Detalles de la fuga de datos",
+      "title": "Data breach details",
       "notes": [
         {
-          "title": "Datos comprometidos",
-          "content": "Detalles sobre los datos comprometidos en la fuga"
+          "title": "Compromised data",
+          "content": "Details about the data exposed during the breach."
         },
         {
-          "title": "Causa raíz",
-          "content": "Resumen de la causa raíz identificada durante la investigación"
+          "title": "Root cause",
+          "content": "Summary of the root cause identified during the investigation."
         },
         {
-          "title": "Análisis forense",
-          "content": "Evidencias y hallazgos forenses relevantes"
+          "title": "Forensic analysis",
+          "content": "Relevant evidence and forensic findings."
         },
         {
-          "title": "Notificación",
-          "content": "Registro de notificaciones a afectados y autoridades"
+          "title": "Notification",
+          "content": "Record of notifications sent to affected parties and authorities."
         },
         {
-          "title": "Lecciones aprendidas",
-          "content": "Acciones y recomendaciones tras el análisis post-mortem"
+          "title": "Lessons learned",
+          "content": "Actions and recommendations from the post-mortem review."
         }
       ]
     }

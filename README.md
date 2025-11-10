@@ -1,73 +1,56 @@
-# Templates de Casos para DFIR-IRIS
+# DFIR-IRIS Case Templates
 
-Este repositorio contiene una colección de plantillas de casos diseñadas para ser utilizadas con **DFIR-IRIS**, facilitando y estandarizando la gestión de incidentes de seguridad.
-
-----------
-
-## ¿Qué es DFIR-IRIS?
-
-**DFIR-IRIS** (Incident Response and Intelligence System) es una plataforma open-source para la gestión de incidentes de seguridad que ayuda a los equipos de **DFIR** (Digital Forensics and Incident Response) a rastrear, gestionar y colaborar durante las fases de respuesta a incidentes.
+This repository contains a collection of case templates designed for **DFIR-IRIS** to streamline and standardize security incident management.
 
 ----------
 
-## Propósito
+## What is DFIR-IRIS?
 
-El objetivo de estas plantillas es proporcionar una estructura predefinida para diferentes tipos de incidentes, lo que permite a los analistas de seguridad:
+**DFIR-IRIS** (Incident Response and Intelligence System) is an open-source incident response platform that helps **DFIR** (Digital Forensics and Incident Response) teams track, manage, and collaborate during every phase of an incident.
 
--   **Acelerar el proceso de creación de casos:** Evitando empezar desde cero en cada incidente.
-    
--   **Estandarizar la recopilación de información:** Asegurando que los datos críticos sean registrados consistentemente.
-    
--   **Mejorar la colaboración:** Proporcionando un marco común para los equipos.
-    
--   **Facilitar el análisis post-incidente:** Gracias a la información estructurada y completa.
+----------
+
+## Purpose
+
+These templates provide a predefined structure for different incident types, enabling security analysts to:
+
+-   **Accelerate case creation:** Eliminate the need to start from scratch for every incident.
+-   **Standardize information gathering:** Ensure critical data is captured consistently.
+-   **Improve collaboration:** Give teams a common framework to work from.
+-   **Simplify post-incident analysis:** Rely on complete, structured information.
     
 
 ----------
 
-## Plantillas Disponibles
+## Available Templates
 
-Actualmente, este repositorio incluye las siguientes plantillas de casos:
+The following case templates are currently included:
 
--   **Ataque a la Cadena de Suministro:** Para incidentes que involucran la seguridad de la cadena de suministro de software o hardware.
-    
--   **Análisis Triage Genérico:** Una plantilla general para la fase inicial de triaje de cualquier incidente desconocido.
-    
--   **BEC Incidente (Business Email Compromise):** Específica para incidentes de compromiso de correo electrónico empresarial.
-    
--   **Brute Force:** Para casos de intentos repetidos y automatizados de adivinar credenciales.
-    
--   **Cloud Data Breach:** Diseñada para incidentes de fuga de datos en entornos de nube.
-    
--   **Cuenta Comprometida:** Para cuando una cuenta de usuario o de servicio ha sido accedida sin autorización.
-    
--   **Data Breach:** Plantilla general para incidentes de fuga o exposición de datos sensibles.
-    
--   **DDoS Attack (Distributed Denial of Service):** Para ataques de denegación de servicio distribuidos.
-    
--   **Insider Threat:** Cubre incidentes relacionados con amenazas provenientes del interior de la organización (maliciosas o no intencionadas).
-    
--   **OT Intrusion (Operational Technology):** Específica para intrusiones en entornos de tecnología operacional o sistemas de control industrial.
-    
--   **Phishing Attack:** Para incidentes que involucran ataques de phishing.
-    
--   **Ransomware Attack:** Para casos de ataques de ransomware.
-    
--   **Web App Vulnerability:** Diseñada para incidentes que surgen de vulnerabilidades en aplicaciones web.
-    
--   **Zero Day Exploit:** Para la gestión de incidentes que explotan vulnerabilidades desconocidas previamente.
-    
--   **Amenaza Interna:** (Duplicado de Insider Threat, se puede consolidar o diferenciar si hay un matiz específico)
+-   **Supply Chain Attack:** For incidents that affect the security of software or hardware supply chains.
+-   **Generic Triage Analysis:** A general template for the initial triage phase of any unknown incident.
+-   **Business Email Compromise (BEC):** Tailored to business email compromise incidents.
+-   **Brute Force:** For repeated, automated attempts to guess credentials.
+-   **Cloud Data Breach:** Built for data exposure events in cloud environments.
+-   **Compromised Account:** For unauthorized access to user or service accounts.
+-   **Data Breach:** A general template for incidents involving sensitive data exposure.
+-   **DDoS Attack (Distributed Denial of Service):** For distributed denial-of-service attacks.
+-   **Insider Threat:** Covers malicious or accidental threats originating from within the organization.
+-   **OT Intrusion (Operational Technology):** Geared toward intrusions in operational technology or industrial control systems.
+-   **Phishing Attack:** For phishing-driven incidents.
+-   **Ransomware Attack:** For ransomware events.
+-   **Web App Vulnerability:** Focused on incidents triggered by web application flaws.
+-   **Zero Day Exploit:** For incidents involving previously unknown vulnerabilities.
+-   **Insider Threat (duplicate):** Mirror of the existing insider threat template; consolidate or adjust if you have a unique angle.
     
 
 ----------
 
-## Contribuciones
+## Contributions
 
-¡Tus contribuciones son bienvenidas! Si tienes ideas para nuevas plantillas, mejoras a las existentes o encuentas algún error, por favor, abre un "issue" o envía un "pull request".
+Contributions are welcome! If you have ideas for new templates, improvements, or spot an issue, please open an issue or submit a pull request.
 
 ----------
 
-## Licencia
+## License
 
-Este proyecto está bajo la licencia **[MIT License](https://www.google.com/search?q=LICENSE)**, lo que significa que puedes usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender copias del software.
+This project is distributed under the **[MIT License](https://www.google.com/search?q=LICENSE)**, which allows you to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software.

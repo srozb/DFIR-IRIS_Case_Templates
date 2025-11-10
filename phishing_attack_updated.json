@@ -1,0 +1,134 @@
+{
+    "name": "PhishingAttackUpdated",
+    "display_name": "Phishing Attack (Updated)",
+    "description": "Template for handling phishing cases.",
+    "author": "Jesús Angosto",
+    "title_prefix": "[PHISHING]",
+    "summary": "Investigation and mitigation of phishing incidents.",
+    "classification": "fraud:phishing",
+    "tags": [
+        "phishing",
+        "email"
+    ],
+    "tasks": [
+        {
+            "title": "Verify sender address",
+            "description": "Confirm that the sender address belongs to the phishing campaign.",
+            "tags": [
+                "email",
+                "verification"
+            ]
+        },
+        {
+            "title": "Analyze the email",
+            "description": "Examine headers, body, and attachments to extract IoCs.",
+            "tags": [
+                "analysis",
+                "IOCs"
+            ]
+        },
+        {
+            "title": "Block the sender",
+            "description": "Block the sender address to prevent additional messages.",
+            "tags": [
+                "email",
+                "blocking"
+            ]
+        },
+        {
+            "title": "Notify affected users",
+            "description": "Notify impacted users and provide a phishing awareness guide.",
+            "tags": [
+                "communication",
+                "awareness"
+            ]
+        },
+        {
+            "title": "Update awareness guidelines",
+            "description": "Refresh or schedule phishing-awareness training activities.",
+            "tags": [
+                "training",
+                "prevention"
+            ]
+        },
+        {
+            "title": "Detection source",
+            "description": "Document how the attack was detected (e.g., SIEM alert, user report, email analysis tool).",
+            "tags": [
+                "detection",
+                "origin"
+            ]
+        },
+        {
+            "title": "Analyze malicious links",
+            "description": "Validate whether the links in the email lead to malicious or spoofed sites.",
+            "tags": [
+                "analysis",
+                "URLs",
+                "phishing"
+            ]
+        },
+        {
+            "title": "Analyze attachments",
+            "description": "Inspect attachments for malware or malicious scripts.",
+            "tags": [
+                "attachments",
+                "malware",
+                "analysis"
+            ]
+        },
+        {
+            "title": "Review filtering rules",
+            "description": "Verify and update email filtering rules to prevent similar attacks.",
+            "tags": [
+                "containment",
+                "filtering",
+                "prevention"
+            ]
+        },
+        {
+            "title": "Review compromised access",
+            "description": "Check whether any user was compromised and take action (password resets, log reviews).",
+            "tags": [
+                "credentials",
+                "access",
+                "mitigation"
+            ]
+        },
+        {
+            "title": "Incident report",
+            "description": "Document the full investigation, actions taken, and recommendations.",
+            "tags": [
+                "documentation",
+                "report",
+                "closure"
+            ]
+        },
+        {
+            "title": "Collected evidence",
+            "description": "List the files, screenshots, logs, and other artifacts used in the investigation.",
+            "tags": [
+                "evidence",
+                "collection"
+            ]
+        }
+    ],
+    "note_directories": [
+        {
+            "title": "Phishing email headers",
+            "content": "Detailed email header information."
+        },
+        {
+            "title": "Phishing email body",
+            "content": "Summary of the email body content."
+        },
+        {
+            "title": "Detection source",
+            "content": "Details on how the incident was detected (e.g., automatic alert, manual report, etc.)."
+        },
+        {
+            "title": "Collected evidence",
+            "content": "List of files, screenshots, logs, and other items gathered during the investigation."
+        }
+    ]
+}
